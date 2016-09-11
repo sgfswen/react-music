@@ -7,18 +7,6 @@ export default ({
   toggleMute
 }) => (
   <div className="pane pane__has-button">
-    {/*<ul className="pane__tags">
-      {item.effects.map((label,i) =>{
-        return (
-          <li 
-            key={i} 
-            className="pane__tag">
-            {label}
-          </li>
-        )
-      })}
-    </ul>*/}
-
     <div className="pane__wrapper">
       <h3 className="pane__label">{item.label}</h3>
       <h4 className="pane__slider-label">

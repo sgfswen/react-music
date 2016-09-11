@@ -1,3 +1,4 @@
+            <Sequencer bars={1}>  
               <Synth
                 gain={0.25}
                 type="sine"
@@ -12,3 +13,4 @@
                   [14, .5, 'd2']
                 ]}
               />
+            </Sequencer>

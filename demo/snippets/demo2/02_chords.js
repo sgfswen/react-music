@@ -1,7 +1,4 @@
-            <Sequencer
-              resolution={16}
-              bars={2}
-            >
+            <Sequencer bars={2}>
               <Synth
                 gain={0.15}
                 type="sawtooth"
